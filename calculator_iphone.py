@@ -295,4 +295,3 @@ class MainWindow(QWidget):
 app = QApplication(sys.argv)
 win = MainWindow()
 sys.exit(app.exec_())
-
