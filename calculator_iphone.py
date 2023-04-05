@@ -290,10 +290,7 @@ class MainWindow(QWidget):
         self.label1.setText(str(jami))
 
     def press_btn_vergul(self):
-        self.label1.setText(self.label1.text() + ',')
-        
-    
-        
+        self.label1.setText(self.label1.text() + ',') 
 
 app = QApplication(sys.argv)
 win = MainWindow()
